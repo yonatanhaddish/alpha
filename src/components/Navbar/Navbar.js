@@ -1,11 +1,13 @@
 import React from 'react'
-import { Nav } from './Navbar.elements';
+import { Nav, NavbarContainer } from './Navbar.elements';
 
 const Navbar = () => {
     return (
         <>
             <Nav>
-                Hello World!!!
+                <NavbarContainer>
+
+                </NavbarContainer>
             </Nav>  
         </>
     );
