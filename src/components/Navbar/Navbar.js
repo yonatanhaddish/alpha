@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks } from './Navbar.elements';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Button } from '../../globalstyles';
 
 const Navbar = () => {
 
@@ -35,6 +36,17 @@ const Navbar = () => {
                                 Products
                             </NavLinks>
                         </NavItem>
+                        <NavItemBtn>
+                            {button ? (
+                                <NavBtnLink to="/signup">
+                                    <Button primary>SIGN UP</Button>
+                                </NavBtnLink>
+                            ) : (
+                                <NavBtnLink to="/signup">
+                                    <Button fontBig primary>SIGN UP</Button>
+                                </NavBtnLink>
+                            )}
+                        </NavItemBtn>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>  
