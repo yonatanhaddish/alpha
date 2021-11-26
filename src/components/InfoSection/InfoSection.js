@@ -1,4 +1,5 @@
 import React from 'react';
+import { InfoSec } from './InfoSection.elements';
 import { Link } from 'react-router-dom';
 import { Button, Container } from '../../globalStyles';
 
