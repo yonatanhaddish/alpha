@@ -21,4 +21,21 @@ export const InfoColumn = styled.div `
     flex: 1;
     max-width: 50%;
     flex-basis: 50%;
-`
+
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+`;
+
+export const TextWrapper = styled.div `
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 65px;
+    }
+`;
