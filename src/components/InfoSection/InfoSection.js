@@ -22,7 +22,7 @@ const InfoSection = ({lightBg, imgStart, lightTopLine, lightText, lightTextDesc,
                         </InfoColumn>
                         <InfoColumn>
                             <ImgWrapper start= {start}>
-                                <Img src= {img} alt= {alt}/>
+                                <Img src= {img} alt= {alt} />
                             </ImgWrapper>
                         </InfoColumn>
                     </InfoRow>
