@@ -1,4 +1,4 @@
-import react from "react";
+// import react from "react";
 import {InfoSection} from "../../components";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
 
