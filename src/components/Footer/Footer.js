@@ -36,14 +36,14 @@ const Footer = () => {
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
             <FooterLink to="/">Investors</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Contact us</FooterLinkTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
             <FooterLink to="/">Investors</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinkItems>
@@ -52,14 +52,14 @@ const Footer = () => {
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
             <FooterLink to="/">Investors</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Contact us</FooterLinkTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
             <FooterLink to="/">Investors</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinkItems>
