@@ -1,18 +1,19 @@
 import React from 'react'
+import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText} from './Footer.elements'
 
-const FooterContainer = () => {
+const Footer = () => {
     return (
         <FooterContainer>
             <FooterSubscription>
                 <FooterSubHeading>Join our exclusive membership to recieve the latest news and trends</FooterSubHeading>
                 <FooterSubText>You can unsubscribe at any time.</FooterSubText>
-                <Form>
+                {/* <Form>
                     <FormInput name="email" type="email" placeholder="Your Email"></FormInput>
                     <Button fontBig>Subscribe</Button>
-                </Form>
+                </Form> */}
             </FooterSubscription>
         </FooterContainer>
     )
 }
 
-export default FooterContainer
+export default Footer
