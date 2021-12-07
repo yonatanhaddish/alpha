@@ -58,3 +58,4 @@ function InfoSection({
 }
 
 export default InfoSection;
+export default InfoSection;
