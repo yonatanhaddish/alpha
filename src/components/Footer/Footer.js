@@ -7,6 +7,11 @@ import {
   FooterSubText,
   Form,
   FormInput,
+  FooterLinksContainer,
+  FooterLinksWrapper,
+  FooterLinkItems,
+  FooterLink,
+  FooterLinkTitle
 } from "./Footer.elements";
 
 const Footer = () => {
@@ -26,6 +31,40 @@ const Footer = () => {
           <Button fontBig>Subscribe</Button>
         </Form>
       </FooterSubscription>
+      <FooterLinksContainer>
+        <FooterLinksWrapper>
+          <FooterLinkItems>
+            <FooterLinkTitle>About Us</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of Service</FooterLink>
+          </FooterLinkItems>
+          <FooterLinkItems>
+            <FooterLinkTitle>Contact us</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of Service</FooterLink>
+          </FooterLinkItems>
+        </FooterLinksWrapper>
+        <FooterLinksWrapper>
+          <FooterLinkItems>
+            <FooterLinkTitle>About Us</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of Service</FooterLink>
+          </FooterLinkItems>
+          <FooterLinkItems>
+            <FooterLinkTitle>Contact us</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/t">Testimonials</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of Service</FooterLink>
+          </FooterLinkItems>
+        </FooterLinksWrapper>
+      </FooterLinksContainer>
     </FooterContainer>
   );
 };
