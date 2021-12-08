@@ -11,7 +11,7 @@ import {
   FooterLinksWrapper,
   FooterLinkItems,
   FooterLink,
-  FooterLinkTitle
+  FooterLinkTitle,
 } from "./Footer.elements";
 
 const Footer = () => {
@@ -65,6 +65,37 @@ const Footer = () => {
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
+      <SocialMedia>
+        <SocialMediaWrap>
+          <SocialLogo to="/">
+            <SocialIcon />
+            Alpha
+          </SocialLogo>
+          <WebsiteRights>Alpha © 2021</WebsiteRights>
+          <SocialIcons>
+            <SocialIconLink href="/" target="_blank" arial-label="Facebook">
+              <FaFacebook />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" arial-label="Instagram">
+              <FaInstagram />
+            </SocialIconLink>
+            <SocialIconLink
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              arial-label="Youtube"
+            >
+              <FaYoutube />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" arial-label="Twitter">
+              <FaTwitter />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" arial-label="LinkedIn">
+              <Falinkedin />
+            </SocialIconLink>
+          </SocialIcons>
+        </SocialMediaWrap>
+      </SocialMedia>
     </FooterContainer>
   );
 };
