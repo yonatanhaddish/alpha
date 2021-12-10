@@ -152,5 +152,3 @@ export const WebsiteRights= styled.section`
     margin-bottom: 16px;
 `;
 
-
-

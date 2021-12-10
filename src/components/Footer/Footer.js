@@ -71,7 +71,7 @@ const Footer = () => {
             <SocialIcon />
             Alpha
           </SocialLogo>
-          <WebsiteRights>Alpha © 2021</WebsiteRights>
+          <WebsiteRights>Alpha © 2022</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" arial-label="Facebook">
               <FaFacebook />
