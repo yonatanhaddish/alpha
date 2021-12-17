@@ -16,13 +16,17 @@ export const Nav = styled.nav `
     top: 0;
     z-index: 999;
     color: #fff;
+
+    position: sticky;
+    top: 0;
+
 `;
 
 export const NavbarContainer = styled(Container) `
     display: flex;
     justify-content: space-between;
     height: 80px;
-
+    
     ${Container}
 `;
 
