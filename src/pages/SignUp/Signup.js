@@ -1,13 +1,13 @@
 // import react from "react";
 import { InfoSection } from "../../components";
-import { homeObjThree } from "./Data";
+import { homeObjFour } from "./Data";
 
-const Home = () => {
+const SignUp = () => {
     return (
         <>
-           <InfoSection {...homeObjThree}/>
+           <InfoSection {...homeObjFour}/>
         </>
     )
 }
 
-export default Home;
+export default SignUp;

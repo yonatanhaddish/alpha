@@ -2,7 +2,7 @@
 import { InfoSection, Pricing } from "../../components";
 import { homeObjFour } from "./Data";
 
-const Home = () => {
+const Service = () => {
     return (
         <>
            <Pricing />
@@ -11,4 +11,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Service;

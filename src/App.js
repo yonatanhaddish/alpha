@@ -5,14 +5,16 @@ import GlobalStyle from "././globalStyles";
 import Home from "./pages/HomePage/Home";
 import Service from "./pages/Services/Service";
 import Product from "./pages/Products/Product";
-import SignUp from "././pages/SignUp/Signup";
+import SignUp from "./pages/SignUp/SignUp";
 import Footer from "././components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route exact path= "/"  element= {<Home />} />

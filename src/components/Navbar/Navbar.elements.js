@@ -34,6 +34,10 @@ export const NavLogo = styled(Link)`
     font-size: 2rem;
     display: flex;
     align-items: center;
+
+    &:hover {
+        color: #4b59f7;
+    }
 `;
 
 export const NavIcon = styled(FaAdn)`
