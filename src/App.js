@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import GlobalStyle from "././globalStyles";
 import Home from "./pages/HomePage/Home";
 import Footer from "././components/Footer/Footer";
+// import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path= "/"  element= {<Home />} />
+        {/* <Route exact path= "/sign-up"  element= {<Pricing />} /> */}
       </Routes>
       <Footer />
     </Router>
