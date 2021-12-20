@@ -8,6 +8,8 @@ function Signup() {
             <SignupContainer>
                 <Form>
                     <FormInput name="username" type="text" placeholder="Username"></FormInput>
+                    <FormInput name="email" type="email" placeholder="Email"></FormInput>
+                    <FormInput name="password" type="password" placeholder="********"></FormInput>
                 </Form>
             </SignupContainer>
         </>
