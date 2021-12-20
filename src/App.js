@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <Router basename="/tothepoint_login">
+    <Router>
       <GlobalStyle />
       <ScrollToTop />
       <Navbar />
