@@ -1,19 +1,35 @@
-import React from 'react'
+import React from "react";
+import { Button } from "../../globalStyles";
 
-import { SignupContainer, Form, FormInput } from './Signup.elements';
+import { SignupContainer, FormWrapper, Form, FormInput } from "./Signup.elements";
 
 function Signup() {
-    return (
-        <>
-            <SignupContainer>
-                <Form>
-                    <FormInput name="username" type="text" placeholder="Username"></FormInput>
-                    <FormInput name="email" type="email" placeholder="Email"></FormInput>
-                    <FormInput name="password" type="password" placeholder="********"></FormInput>
-                </Form>
-            </SignupContainer>
-        </>
-    )
+  return (
+    <>
+      <SignupContainer>
+        <FormWrapper>
+          <Form>
+            <FormInput
+              name="username"
+              type="text"
+              placeholder="Username"
+            ></FormInput>
+            <FormInput
+              name="email"
+              type="email"
+              placeholder="Email"
+            ></FormInput>
+            <FormInput
+              name="password"
+              type="password"
+              placeholder="********"
+            ></FormInput>
+          </Form>
+          <Button style={{width: "80%"}}>Sign Up</Button>
+        </FormWrapper>
+      </SignupContainer>
+    </>
+  );
 }
 
 export default Signup;
