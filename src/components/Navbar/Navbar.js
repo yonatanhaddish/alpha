@@ -29,6 +29,20 @@ const Navbar = () => {
       }
   };
 
+  const colorRandom = (() => {
+    const value = (min, max) => {
+      const d= max - min + 1;
+      const r= Math.random() * d;
+      return Math.floor(r) + min;
+    };
+    return () => {
+      const h= value(0,360);
+      const s= value(42,98);
+      const l= value(40,90);
+      return `hsl(${h},${s}%,${l}%)` ;
+    };
+  })();
+
   useEffect(() => {
       showButton()
   }, []);
@@ -39,7 +53,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/" onClick={handleCloseMenu}>
+          <NavLogo to="/" onClick={colorRandom}>
             <NavIcon />
             ALPHA
           </NavLogo>

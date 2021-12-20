@@ -31,7 +31,10 @@ export const NavbarContainer = styled(Container) `
 `;
 
 export const NavLogo = styled(Link)`
-    color: #fff;
+    /* color: #fff; */
+
+    color: colorRandom;
+
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
