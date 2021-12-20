@@ -43,7 +43,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/alpha" onClick={handleCloseMenu}>
+          <NavLogo to="/" onClick={handleCloseMenu}>
             <NavIcon />
             ALPHA
           </NavLogo>
@@ -52,21 +52,21 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu onClick={handleClick} click={click}>
             <NavItem>
-              <NavLinks to="/alpha">Home</NavLinks>
+              <NavLinks to="/">Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/alpha/services">Services</NavLinks>
+              <NavLinks to="/services">Services</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/alpha/products">Products</NavLinks>
+              <NavLinks to="/products">Products</NavLinks>
             </NavItem>
             <NavItemBtn>
               {button ? (
-                <NavBtnLink to="/alpha/signup">
+                <NavBtnLink to="/signup">
                   <Button primary>SIGN UP</Button>
                 </NavBtnLink>
               ) : (
-                <NavBtnLink to="/alpha/signup">
+                <NavBtnLink to="/signup">
                   <Button fontbig primary>
                     SIGN UP
                   </Button>
