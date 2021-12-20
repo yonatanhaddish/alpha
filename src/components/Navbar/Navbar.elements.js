@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 export const Nav = styled.nav `
     background: #101522;
+    /* opacity: 0.5; */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -20,6 +21,10 @@ export const Nav = styled.nav `
     position: sticky;
     top: 0;
 
+    &:active {
+        color: "green"
+    }
+
 `;
 
 export const NavbarContainer = styled(Container) `
@@ -31,10 +36,7 @@ export const NavbarContainer = styled(Container) `
 `;
 
 export const NavLogo = styled(Link)`
-    /* color: #fff; */
-
-    color: colorRandom;
-
+    color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
