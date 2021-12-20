@@ -33,6 +33,10 @@ const Navbar = () => {
       showButton()
   }, []);
 
+  useEffect(() => {
+    document.title= "Alpha"
+  });
+
   window.addEventListener('resize', showButton);
 
   return (
