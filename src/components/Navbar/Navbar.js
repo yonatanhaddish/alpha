@@ -43,7 +43,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/alpha" onClick={handleCloseMenu}>
+          <NavLogo to="/" onClick={handleCloseMenu}>
             <NavIcon />
             ALPHA
           </NavLogo>
@@ -52,7 +52,7 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu onClick={handleClick} click={click}>
             <NavItem>
-              <NavLinks to="/alpha">Home</NavLinks>
+              <NavLinks to="/">Home</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="/services">Services</NavLinks>
